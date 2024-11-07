@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.project img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Ensure the image is responsive */
+.profile-image {
+    width: 100%;
+    max-width: 400px; /* Limit the maximum size */
+    height: auto;
+    border-radius: 50%; /* Optional: make it circular */
+  }
+  
